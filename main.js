@@ -1,4 +1,4 @@
-import blog, { ga, redirects } from "https://deno.land/x/blog@0.3.3/blog.tsx";
+import blog from "https://deno.land/x/blog@0.3.3/blog.tsx";
 
 blog({
   title: "Siva.",
@@ -15,5 +15,4 @@ blog({
     { title: "Email", url: "mailto:sivayogasubramanian@gmail.com" },
   ],
   background: "#f7fbff",
-  middlewares: [],
 });
