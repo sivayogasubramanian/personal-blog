@@ -1,14 +1,8 @@
-![](../posts/screenshot.png)
-
-# Ryan's Blog
-
-Deployments in less than 10 seconds.
+# Siva's Blog
 
 To get it running:
 
 ```sh
-git clone git@github.com:ry/tinyclouds.git blog
-cd blog
 deno task dev
 ```
 
