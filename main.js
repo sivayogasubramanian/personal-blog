@@ -14,5 +14,6 @@ blog({
     },
     { title: "Email", url: "mailto:sivayogasubramanian@gmail.com" },
   ],
-  background: "#f7fbff",
+  background: "#020013",
+  theme: "dark",
 });
