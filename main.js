@@ -1,4 +1,4 @@
-import blog from "https://deno.land/x/blog@0.4.1/blog.tsx";
+import blog, { ga } from "https://deno.land/x/blog@0.4.1/blog.tsx";
 import {
   IconEmail,
   IconGithub,
@@ -40,4 +40,5 @@ blog({
   favicon: "./favicon.ico",
   ogImage: "./og.jpg",
   dateStyle: "long",
+  middlewares: [ga("UA-229977013-1")],
 });
