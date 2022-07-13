@@ -1,9 +1,9 @@
 import blog from "https://deno.land/x/blog@0.4.1/blog.tsx";
 import {
-  IconPortfolio,
+  IconEmail,
   IconGithub,
   IconLinkedin,
-  IconEmail,
+  IconPortfolio,
 } from "./components.tsx";
 
 blog({
