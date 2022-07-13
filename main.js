@@ -5,6 +5,7 @@ import {
   IconLinkedin,
   IconPortfolio,
 } from "./components.tsx";
+import "./prismjs-extensions.ts";
 
 blog({
   title: "Siva's Blog.",

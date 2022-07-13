@@ -1,5 +1,3 @@
-// deno-lint-ignore-file
-
 import { h } from "https://deno.land/x/htm@0.0.10/mod.tsx";
 
 /** @jsx h */
