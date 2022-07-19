@@ -1,4 +1,4 @@
-import blog, { ga } from "https://deno.land/x/blog@0.4.1/blog.tsx";
+import blog, { ga } from "https://deno.land/x/blog@0.4.2/blog.tsx";
 import {
   IconEmail,
   IconGithub,
@@ -20,21 +20,25 @@ blog({
       title: "Portfolio",
       url: "https://sivarn.com",
       icon: IconPortfolio(),
+      target: "_blank",
     },
     {
       title: "GitHub",
       url: "https://github.com/sivayogasubramanian",
       icon: IconGithub(),
+      target: "_blank",
     },
     {
       title: "LinkedIn",
       url: "https://www.linkedin.com/in/sivayogasubramanian",
       icon: IconLinkedin(),
+      target: "_blank",
     },
     {
       title: "Email",
       url: "mailto:sivayogasubramanian@gmail.com",
       icon: IconEmail(),
+      target: "_blank",
     },
   ],
   favicon: "./favicon.ico",
